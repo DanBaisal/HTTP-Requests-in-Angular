@@ -1,1 +1,3 @@
-<input (input)="onInput($event.target.value)">
+<form (submit)="onFormSubmit($event)">
+    <input (input)="onInput($event.target.value)">
+</form>
